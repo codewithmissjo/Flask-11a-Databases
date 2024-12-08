@@ -1,0 +1,26 @@
+# How to use the flask starter kit
+
+1. Duplicate or copy/paste the starter kit directory.
+
+2. Rename the new directory.
+
+3. In VSCode, open the new directory.
+
+4. Go to (top menu) View > Command Palette
+
+5. In the Command Palette, search for Python: Create Environment
+
+6. From the list select Venv
+
+7. Select the Python inteprreter to be used
+
+8. Wait for the virtual environment to finish creation
+
+9. Go to (top menu) Terminal > New Terminal
+
+10. Check the terminal language and change it to Command Prompt if it is something else
+
+11. In the [cmd] terminal, type:
+python -m pip install flask
+
+12. Click the Run button to test out your code
