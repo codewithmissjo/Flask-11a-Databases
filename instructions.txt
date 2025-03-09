@@ -1,0 +1,7 @@
+1. import sqlite3
+2. create a connection
+3. create a cursor object
+4. build a create table function
+5. build a function that adds items to your db table
+6. build a funtion that gets all the table rows
+7. insert the table data into your index route

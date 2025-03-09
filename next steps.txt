@@ -18,7 +18,7 @@
 
 9. Go to (top menu) Terminal > New Terminal.
 
-10. (for Windows only) Check the terminal language and change it to Command Prompt if it is something else.
+10. (for Windows only) Check the terminal language and change it to Command Prompt if it is something else. To do this in the terminal area, click on the down arrow (v) next to the plus sign and select Command Prompt from the dropdown.
 
 11. In the [cmd] terminal, type:
 (for Windows) python -m pip install flask
