@@ -18,4 +18,31 @@
     </tr>
 {% endfor %}
 </table>
+
+<h2>Search</h2>
+
+<form action="/search" method="post">
+    <label>Search by Name</label>
+    <input type="text" name="pr-name" />
+    <br><br>
+    <input type="submit" />
+</form>
+
+{{searchResults}}
+
+<h2>Add Item</h2>
+
+<form action="/add" method="post">
+    <label>Name</label>
+    <input name="add-name" type="text" />
+    <br><br>
+    <label>Quantity</label>
+    <input name="add-quan" type="number" value="3" />
+    <br><br>
+    <label>Price</label>
+    <input name="add-price" type="number" value="3.99" />
+    <br><br>
+    <input type="submit" />
+</form>
+
 {% endblock %}
