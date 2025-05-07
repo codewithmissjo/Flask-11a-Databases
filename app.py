@@ -69,6 +69,10 @@ def add():
   add_item(name, quantity, price)
   return redirect('/')
 
+@app.route("download-db")
+def download():
+  return "download-db"
+
 def main():
   create_table()
   if get_one("potato") == None:
